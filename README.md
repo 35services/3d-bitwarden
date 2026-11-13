@@ -1,6 +1,6 @@
 # Local Bitwarden server (Vaultwarden)
 
-Self-hosted password manager on this Raspberry Pi (`octo35services`, aarch64), run with Docker Compose and served over HTTPS through Tailscale.
+Documenting our self-hosted password manager on a Raspberry Pi (`octo35services`, aarch64), run with Docker Compose and served over HTTPS through Tailscale.
 
 **Why Vaultwarden and not the official Bitwarden stack?** The official server is x86-64 only and needs Microsoft SQL Server plus ~10 containers. Vaultwarden is a lightweight, API-compatible reimplementation (SQLite, one container). All official Bitwarden clients (browser extensions, desktop, mobile, CLI) work with it.
 
